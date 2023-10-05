@@ -1,7 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@500&display=swap');
+
+@font-face {
+    font-family: martian;
+    src: url(martian_offline.ttf);
+}
 
 body {
     background-color: #000;
     color: #fff;
-    font-family: 'Martian Mono', monospace;
+    font-family: martian;
+}
+
+h1 {
+    font-family: martian;
+    color: #cc2b2b;
 }
