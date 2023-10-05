@@ -14,3 +14,46 @@ h1 {
     font-family: martian;
     color: #cc2b2b;
 }
+
+h3 {
+    font-family: martian;
+    color: #979797;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+a {
+    font-weight: bold;
+    font-size: 15px;
+    font-family: martian;
+    color: #cc2b2b;
+}
+
+ul {
+    list-style: none;
+}
+
+li:before {
+    color: #979797;
+    content: "+ ";
+}
+
+a:hover {
+    color: #fff;
+}
+
+#catimg {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 64px;
+    height: 64px;
+}
+
+#credit {
+    position: fixed;
+    bottom: 0px;
+    right: 64px;
+    padding: 0px 5px;
+    text-align: end;
+}
