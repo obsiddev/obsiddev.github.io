@@ -1,2 +1,4 @@
-# bqckslqsh.github.io
-my website
+# backslash page
+this is my web page which i use as a linktree and other things.
+
+yea
