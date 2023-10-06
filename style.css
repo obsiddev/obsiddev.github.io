@@ -59,3 +59,9 @@ a:hover {
     padding: 0px 5px;
     text-align: end;
 }
+
+p {
+    font-size: 15px;
+    font-family: martian;
+    color: #979797;
+}
