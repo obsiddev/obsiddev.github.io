@@ -66,18 +66,6 @@ p {
     color: #979797;
 }
 
-.mainbtn {
-    position: fixed;
-    right: 0px;
-    top: 0px;
-    width: 100px;
-    height: 30px;
-    font-weight: bold;
-    font-size: 15px;
-    font-family: martian;
-    color: #cc2b2b;
-}
-
 .mainbtn:hover {
     text-decoration: underline;
 }
