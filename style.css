@@ -66,7 +66,7 @@ p {
     color: #979797;
 }
 
-#mainbtn {
+.mainbtn {
     position: fixed;
     right: 0px;
     top: 0px;
@@ -78,6 +78,6 @@ p {
     color: #cc2b2b;
 }
 
-#mainbtn:hover {
+.mainbtn:hover {
     text-decoration: underline;
 }
