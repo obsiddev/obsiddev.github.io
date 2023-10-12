@@ -1,24 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
 
-@font-face {
-    font-family: martian;
-    src: url(martian_offline.ttf);
-}
 
 body {
     background-color: #000;
-    background-image:  linear-gradient(#222222 1px, transparent 1px), linear-gradient(to right, #222222 1px, #000000 1px);
     background-size: 20px 20px;
     color: #fff;
-    font-family: martian;
+    font-family: "Gabarito", sans-serif;
 }
 
 h1 {
-    font-family: martian;
+    font-family: "Gabarito", sans-serif;
     color: #cc2b2b;
 }
 
 h3 {
-    font-family: martian;
+    font-family: "Gabarito", sans-serif;
     color: #979797;
     font-style: italic;
     text-decoration: underline;
@@ -27,7 +23,7 @@ h3 {
 a {
     font-weight: bold;
     font-size: 15px;
-    font-family: martian;
+    font-family: "Gabarito", sans-serif;
     color: #cc2b2b;
 }
 
@@ -62,7 +58,7 @@ a:hover {
 
 p {
     font-size: 15px;
-    font-family: martian;
+    font-family: "Gabarito", sans-serif;
     color: #979797;
 }
 
