@@ -1,28 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
 body {
     background-color: #000;
     background-size: 20px 20px;
     color: #fff;
-    font-family: "Gabarito", sans-serif;
+    font-family: 'Roboto Mono', monospace;
 }
 
 h1 {
-    font-family: "Gabarito", sans-serif;
+    font-family: 'Roboto Mono', monospace;
     color: #cc2b2b;
 }
 
 h3 {
-    font-family: "Gabarito", sans-serif;
+    font-family: 'Roboto Mono', monospace;
     color: #979797;
     font-style: italic;
     text-decoration: underline;
 }
 
 a {
-    font-weight: bold;
     font-size: 15px;
-    font-family: "Gabarito", sans-serif;
+    font-family: 'Roboto Mono', monospace;
     color: #cc2b2b;
 }
 
@@ -57,7 +55,7 @@ a:hover {
 
 p {
     font-size: 15px;
-    font-family: "Gabarito", sans-serif;
+    font-family: 'Roboto Mono', monospace;
     color: #979797;
 }
 
