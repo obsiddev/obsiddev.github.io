@@ -104,8 +104,15 @@ p {
 .objectholder {
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+}
+
+@media (min-width:500px)
+{
+  .objectholder {
+    flex-direction:row;
+  }
 }
 
 .projectbox {
