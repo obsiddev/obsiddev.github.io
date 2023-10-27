@@ -8,30 +8,46 @@
     <link rel="shortcut icon" href="cat.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gabarito&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>obsidian's basement</title>
 </head>
 <body>
     <h1>obsidian's basement</h1>
-    <h3>my projects</h3>
-    <ul>
-        <li> <a href="https://obsiddev.github.io/cracker.html">linktree</a>
-        </li>
-        <li> <a href="https://obsiddev.github.io/asteroid">text editor - asteroid<a>
-        </li>
-        <li> <a href="https://obsiddev.github.io/metrochat">web chat - metrochat</a>   
-        </li>
-    </ul>
+    <div class="objectholder">
+        <div class="projectbox" onclick="location.href='https://obsiddev.github.io/cracker.html'">
+            <div class="icondiv"><span class="material-symbols-outlined">open_in_new</span></div>
+            <h3>linktree</h3>
+            <p>
+                this is my linktree which i use for school and other things.
+            </p>
+        </div>
+        <div class="projectbox" onclick="location.href='https://obsiddev.github.io/asteroid'">
+            <div class="icondiv"><span class="material-symbols-outlined">open_in_new</span></div>
+            <h3>asteroid</h3>
+            <p>
+                asteroid is a small text editor, it has very few features but it has tts and you can download your files.
+            </p>
+        </div>
+        <div class="projectbox" onclick="location.href='https://obsiddev.github.io/metrochat'">
+            <div class="icondiv"><span class="material-symbols-outlined">open_in_new</span></div>
+            <h3>metrochat</h3>
+            <p>
+                metrochat is a web chat, it is very basic and you can easily flood it with bots but thats cool. 👍
+            </p>
+        </div>
+    </div>
 
-    <p>asteroid is a small text editor, it has very few features but it has tts and you can download your files.<br>
-        metrochat is a web chat, it is very basic and you can easily flood it with bots but thats cool. 👍</p>
-    <h3>about</h3>
-    <p class="about">
-        i make the design of my websites with pure html5 and css, and the technology behind it is mostly pure javascript.<br>
-        for metrochat i used paho-mqtt, but that is necessary for the networking.<br>
-        the sources of my projects are on <a href="https://github.com/obsiddev">my github</a>.<br>
-        i use visual studio code as my text editor.
-    </p>
+    <div class="objectholder">
+        <div class="objectbox">
+            <h3>about</h3>
+            <p>i make the design of my websites with pure html5 and css, and the technology behind it is mostly pure javascript.
+                for metrochat i used paho-mqtt, but that is necessary for the networking.
+                the sources of my projects are on <a href="https://github.com/obsiddev">my github</a>.
+                i use visual studio code as my text editor.
+            </p>
+        </div>
+    </div>
+
     <!--fixed things like the cat image-->
     <div id="credit">obsidian</div>
     <img src="cat.png" id="catimg" alt="cat">
