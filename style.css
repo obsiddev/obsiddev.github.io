@@ -1,26 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
+html {
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background: #310063;
+    background: radial-gradient(circle, rgba(49,0,99,1) 0%, rgba(0,0,0,1) 100%); 
+}
+
 body {
-    background-color: #111;
     background-size: 20px 20px;
     color: #fff;
-    font-family: 'Roboto Mono', monospace;
+    font-family: system-ui, sans-serif;
 }
 
 h1 {
-    font-family: 'Roboto Mono', monospace;
-    color: #cc2b2b;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #9760ff;
+    text-shadow: 0px 4px 10px #000;
+    font-size: 40px;
 }
 
 h3 {
-    font-family: 'Roboto Mono', monospace;
-    color: #979797;
+    font-family: system-ui, sans-serif;
+    color: #fff;
     font-style: italic;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 0px 4px 10px #797979,
+                0px 0px 3px #000;
 }
 
 a {
-    font-size: 15px;
-    font-family: 'Roboto Mono', monospace;
-    color: #cc2b2b;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    color: #aa42ff;
 }
 
 ul {
@@ -50,14 +70,31 @@ a:hover {
     right: 64px;
     padding: 0px 5px;
     text-align: end;
+    font-family: 'Poppins', sans-serif;
 }
 
 p {
     font-size: 15px;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Poppins', sans-serif;
     color: #979797;
+}
+
+.mainbtn {
+    font-family: 'Poppins', sans-serif;
+    position: fixed; 
+    top:5px;
+    right:5px;
+    border-style:none;
+    font-size:20px;
+    background-color: #ffffff00;
+    color: #aaa;
+    font-weight: bold;
 }
 
 .mainbtn:hover {
     text-decoration: underline;
+}
+
+::selection {
+    background-color: #0000003f;
 }
