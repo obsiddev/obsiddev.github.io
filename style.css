@@ -10,55 +10,26 @@ html {
     -o-background-size: cover;
     background-size: cover;
     background-repeat:no-repeat;
-    background: #310063;
-    background: radial-gradient(circle, rgba(49,0,99,1) 0%, rgba(0,0,0,1) 100%); 
+    background: #0c0b0e;
     -webkit-user-select: none; /* Safari */
     -ms-user-select: none; /* IE 10 and IE 11 */
     user-select: none; /* Standard syntax */
+    overflow-x: hidden;
 }
 
 body {
-    background-size: 20px 20px;
+    padding: 30px;
     color: #fff;
-    font-family: system-ui, sans-serif;
+    cursor: default;
 }
 
 h1 {
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    color: #aa42ff;
-    text-shadow: 0px 4px 10px #000;
-    font-size: 40px;
-    font-weight: 100;
-}
-
-h3 {
-    font-family: system-ui, sans-serif;
-    color: #fff;
-    font-style: italic;
-    font-family: 'Poppins', sans-serif;
-    text-shadow: 0px 4px 10px #797979,
-                0px 0px 3px #000;
-    font-weight: bold;
-}
-
-a {
-    font-size: 15px;
-    font-family: 'Poppins', sans-serif;
-    color: #aa42ff;
-}
-
-ul {
-    list-style: none;
-}
-
-li:before {
-    color: #979797;
-    content: "+ ";
-}
-
-a:hover {
-    color: #fff;
+    font-size: 72px;
+    background: -webkit-linear-gradient(0deg, #a556ff, #00ff40);
+    background-size: 600px;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 0px 100px #310063;
 }
 
 #catimg {
@@ -67,31 +38,56 @@ a:hover {
     right: 0px;
     width: 64px;
     height: 64px;
+    box-shadow: 0px 0px 20px #310063;
 }
 
-#credit {
-    position: fixed;
-    bottom: 0px;
-    right: 64px;
-    padding: 0px 5px;
-    text-align: end;
-    font-family: 'Poppins', sans-serif;
+.headerbtn {
+    float: right;
+    display: inline;
+    transition: all 150ms ease;
+    margin: 0px 10px;
+    cursor: pointer;
 }
 
-p {
-    font-size: 15px;
-    font-family: 'Poppins', sans-serif;
+header {
+    padding: 40px;
+    margin: -40px;
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(15px);
+}
+
+.news {
+    margin: 30px 30px;
+}
+
+.news .date {
+    margin: 0px 35px;
+    font-style: italic;
     color: #aaa;
 }
 
-.mainbtn {
-    font-family: 'Poppins', sans-serif;
-    position: fixed; 
-    top:5px;
-    right:5px;
-    border-style:none;
-    font-size:20px;
-    background-color: #ffffff00;
+
+.news p {
+    margin: 0px 35px;
     color: #aaa;
-    font-weight: bold;
+}
+
+h2 {
+    margin: -30px 30px;
+    font-size: 48px;
+    color: #fff;
+    text-shadow: 0px 0px 100px #310063;
+}
+
+h2::before {
+    content: "‣ ";
+}
+
+.headerbtn:hover {
+    color: #aaa;
+}
+
+img {
+    pointer-events: none;
 }
