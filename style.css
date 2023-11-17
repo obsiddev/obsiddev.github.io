@@ -12,6 +12,9 @@ html {
     background-repeat:no-repeat;
     background: #310063;
     background: radial-gradient(circle, rgba(49,0,99,1) 0%, rgba(0,0,0,1) 100%); 
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
 }
 
 body {
@@ -91,12 +94,4 @@ p {
     background-color: #ffffff00;
     color: #aaa;
     font-weight: bold;
-}
-
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 10;
 }
