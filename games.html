@@ -1,23 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="cat.ico" type="image/x-icon">
-    <title>obsidian | games</title>
+    <title>obsidian | software</title>
 </head>
+
 <body>
     <header>
-        <img src="logo.png" alt=""width="27px" style="vertical-align: top;">
+        <img src="logo.png" alt="" width="27px" style="vertical-align: top;">
         <span>obsidian</span>
         <span class="headerbtn" onclick="location.href='https://obsiddev.github.io'">home</span>
-        <span class="headerbtn" onclick="location.href='https://obsiddev.github.io/games.html'">games</span>
+        <span class="headerbtn" onclick="location.href='https://obsiddev.github.io/games.html'">software</span>
         <span class="headerbtn" onclick="location.href='https://obsiddev.github.io/metrochat'">metrochat</span>
         <span class="headerbtn" onclick="location.href='https://obsiddev.github.io/asteroid'">asteroid</span>
     </header>
     <h1>games</h1>
-    <h2>sorry, but there are currently no public games.</h2>
+    <div class="contentflex">
+        <div class="projectbox">
+            <h3>typewriter-bot</h3>
+            <p>
+                this is a typewriter bot i made in python with the keyboard module. it basically writes a lesson
+                you specify with a given error percentage and a given words per minute speed.
+            </p>
+        </div>
+        <div class="projectbox">
+            <h3>metrochat</h3>
+            <p>
+                this is a web chat i made with mqtt and javascript. it is very basic and uses a public broker, feel free to
+                check out the source code <a href="https://github.com/obsiddev/metrochat">here</a>.
+            </p>
+        </div>
+        <div class="projectbox">
+            <h3>asteroid</h3>
+            <p>
+                this is a little text editor i made using blank javascript. i dont really work on it anymore,
+                but it has some cool features like tts and file saving. the source code is 
+                <a href="https://github.com/obsiddev/asteroid">here</a>.
+            </p>
+        </div>
+    </div>
 </body>
+
 </html>

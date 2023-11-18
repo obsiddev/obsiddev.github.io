@@ -9,14 +9,16 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-repeat:no-repeat;
-    background: #0c0b0e;
-    -webkit-user-select: none; /* Safari */
-    -ms-user-select: none; /* IE 10 and IE 11 */
-    user-select: none; /* Standard syntax */
+    background-repeat: no-repeat;
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
     overflow-x: hidden;
-    background: rgb(0,0,0);
-    background: radial-gradient(circle, rgba(0,0,0,1) 0%, #0d0016);
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, #0d0016);
 }
 
 body {
@@ -46,7 +48,7 @@ h1 {
 }
 
 .titletext {
-    color:  #aaa;
+    color: #aaa;
     font-size: 20px;
     margin: -50px 0px 10px 33px;
 }
@@ -91,6 +93,11 @@ li {
     color: #aaa;
 }
 
+p {
+    color: #aaa;
+    margin: 10px 0px;
+}
+
 .headerbtn:hover {
     color: #a556ff;
     text-shadow: 0px 0px 30px #a556ff;
@@ -111,4 +118,25 @@ a:hover {
 
 img {
     pointer-events: none;
+}
+
+h3 {
+    color: #fff;
+    margin: 10px 0px;
+    font-size: 24px;
+    text-shadow: 0px 0px 20px #fff;
+}
+
+.contentflex {
+    display: flex;
+    flex-direction: column;
+}
+
+.projectbox {
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #000;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #310063,
+                inset 0px 0px 5px #310063;
 }
