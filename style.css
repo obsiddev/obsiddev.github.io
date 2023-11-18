@@ -26,12 +26,14 @@ body {
 
 h1 {
     font-size: 72px;
-    background: -webkit-linear-gradient(0deg, #a556ff, #00ff40);
     background-size: 600px;
+    background: linear-gradient(90deg, #a556ff, #56ff80);
+    background-size: 100%;
     margin: 30px;
     background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-shadow: 0px 0px 50px #3a0074;
+    display: inline-block;
 }
 
 .headerbtn {
