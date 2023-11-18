@@ -67,6 +67,16 @@ h2 {
     margin: 20px 0px 10px 40px;
 }
 
+@keyframes stars {
+    from {
+        transform: translateY(0px);
+    }
+
+    to {
+        transform: translateY(-100%);
+    }
+}
+
 h2::before {
     content: "‣ ";
 }
