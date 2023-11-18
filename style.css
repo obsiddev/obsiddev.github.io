@@ -18,7 +18,6 @@ html {
 }
 
 body {
-    padding: 30px;
     color: #fff;
     cursor: default;
 }
@@ -27,18 +26,10 @@ h1 {
     font-size: 72px;
     background: -webkit-linear-gradient(0deg, #a556ff, #00ff40);
     background-size: 600px;
+    margin: 30px;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-shadow: 0px 0px 100px #310063;
-}
-
-#catimg {
-    position: fixed;
-    bottom: 0px;
-    right: 0px;
-    width: 64px;
-    height: 64px;
-    box-shadow: 0px 0px 20px #310063;
+    text-shadow: 0px 0px 50px #3a0074;
 }
 
 .headerbtn {
@@ -47,53 +38,62 @@ h1 {
     transition: all 150ms ease;
     margin: 0px 10px;
     cursor: pointer;
+    text-shadow: 0px 0px -3px #fff;
+}
+
+.titletext {
+    color:  #aaa;
+    font-size: 20px;
+    margin: -50px 0px 10px 33px;
 }
 
 header {
     padding: 40px;
-    margin: -40px;
+    margin: -10px;
     position: sticky;
     top: 0;
     backdrop-filter: blur(15px);
-}
-
-.news {
-    margin: 30px 30px;
-}
-
-.news .date {
-    margin: 0px 35px;
-    font-style: italic;
-    color: #aaa;
-}
-
-.news p {
-    margin: 0px 35px;
-    color: #fff;
+    font-size: 17px;
 }
 
 h2 {
-    margin: -30px 30px;
     font-size: 48px;
     color: #fff;
     text-shadow: 0px 0px 100px #310063;
+    margin: 20px 0px 10px 40px;
 }
 
 h2::before {
     content: "‣ ";
 }
 
-.headerbtn:hover {
+ul {
+    list-style-type: square;
+    margin: -10px 0px 10px 50px;
+}
+
+li {
     color: #aaa;
+}
+
+.headerbtn:hover {
+    color: #a556ff;
+    text-shadow: 0px 0px 30px #a556ff;
+}
+
+a {
+    color: #00ff40;
+    text-decoration: none;
+    text-shadow: 0px 0px -3px #fff;
+    transition: all 150ms ease;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: underline;
+    text-shadow: 0px 0px 20px #fff;
 }
 
 img {
     pointer-events: none;
-}
-
-@media screen and (max-width: 800px) {
-    h1 {
-        font-size: 40px;
-        margin: 40px 0px;
-    }
 }
