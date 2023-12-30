@@ -1,19 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
 body {
-    font-family: monospace;
+    font-family: "Roboto Mono", monospace;
     cursor: default;
     overflow: hidden;
+    color: #fff;
     background-color: #000;
 }
 
 header {
     font-size: 20px;
     background:
-    linear-gradient(90deg, #000, #222d, #000) 0 0,
+    linear-gradient(90deg, #111, #000, #111) 0 0,
         url(./noise.png);
     margin: -10px;
     padding: 15px;
     color: #fff;
-    font-weight: bold;
-    box-shadow: 0px 0px 40px #222,
+    text-align: center;
+    box-shadow: 0px 0px 30px 10px #111,
                 inset 0px 0px 10px #161616;
 }
